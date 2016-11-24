@@ -99,8 +99,6 @@ static FCMPlugin *fcmPluginInstance;
     } else {
         #if CORDOVA_VERSION_MIN_REQUIRED >= __CORDOVA_4_0_0
         	[self.webViewEngine performSelector:@selector(evaluateJavaScript:completionHandler:) withObject:notifyJS withObject:nil];
-      	//#else
-      	//	[self.webView stringByEvaluatingJavaScriptFromString:notifyJS];
       	#endif
     }
 }
