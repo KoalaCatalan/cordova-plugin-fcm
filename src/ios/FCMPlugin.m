@@ -8,6 +8,7 @@
 #import "Firebase.h"
 
 @interface FCMPlugin () {}
+@property (strong) id webViewEngine;
 @end
 
 @implementation FCMPlugin
